@@ -6,6 +6,8 @@ const Color Color::Black(0, 0, 0);
 const Color Color::Blue(0, 0, 255);
 const Color Color::Green(0, 255, 0);
 const Color Color::Red(255, 0, 0);
+const Color Color::Purple(100, 0, 100);
+const Color Color::Gray(100, 100, 100);
 
 Color::Color(uint8_t red, uint8_t green, uint8_t blue) : m_red(red), m_green(green), m_blue(blue)
 {

@@ -31,6 +31,7 @@ public:
   void reboot();
   void lineColor(uint16_t start, uint16_t end, const Color &foreground, const Color &background);
   void lineColor(uint16_t line, const Color &foreground, const Color &background);
+  void inverse(const char *text_str);
 };
 
 extern SerialVgaClass SerialVga;

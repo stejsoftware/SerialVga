@@ -129,4 +129,15 @@ void SerialVgaClass::lineColor(uint16_t line, const Color &foreground, const Col
     lineColor(line, line, foreground, background);
 }
 
+void SerialVgaClass::inverse(const char *text_str)
+{
+    // Function to write inverse characters to VGA board
+    // Makes bit 7 of each character a 1
+
+    for (int i = 0; text_str[i] != '\0'; i++)
+    {
+        Serial.print((char)(text_str[i] | 0x80));
+    }
+}
+
 SerialVgaClass SerialVga;

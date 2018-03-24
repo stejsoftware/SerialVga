@@ -17,6 +17,8 @@ public:
   static const Color Blue;
   static const Color Green;
   static const Color Red;
+  static const Color Purple;
+  static const Color Gray;
 
 private:
   uint8_t m_red;
