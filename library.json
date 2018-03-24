@@ -1,0 +1,22 @@
+{
+    "name": "SerialVga",
+    "keywords": "VGA, Arduino, Serial",
+    "description": "Library to control HobbyTronics SerailVGA device.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/stejsoftware/SerialVga.git"
+    },
+    "authors": [
+      {
+        "name": "Jonathan Meyer",
+        "email": "jon@stejsoftware.com",
+        "url": "https://github.com/stejsoftware/SerialVga",
+        "maintainer": true
+      }
+    ],
+    "dependencies": [],
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": ["atmelavr", "espressif", "teensy"]
+  }
+  
